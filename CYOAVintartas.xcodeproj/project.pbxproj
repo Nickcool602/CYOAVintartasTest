@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AB0CC1362CDBD57A002BD47D /*  Lose Fight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0CC1352CDBD57A002BD47D /*  Lose Fight.swift */; };
+		AB0CC1382CDBD5C0002BD47D /* fightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0CC1372CDBD5C0002BD47D /* fightVC.swift */; };
+		AB0CC13A2CDBD867002BD47D /* ceaserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0CC1392CDBD867002BD47D /* ceaserVC.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AB6F47FE2CD937CB0005D40C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB0CC1352CDBD57A002BD47D /*  Lose Fight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Lose Fight.swift"; sourceTree = "<group>"; };
+		AB0CC1372CDBD5C0002BD47D /* fightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fightVC.swift; sourceTree = "<group>"; };
+		AB0CC1392CDBD867002BD47D /* ceaserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceaserVC.swift; sourceTree = "<group>"; };
 		AB6F47E42CD937CA0005D40C /* CYOAVintartas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYOAVintartas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6F47FD2CD937CB0005D40C /* CYOAVintartasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYOAVintartasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6F48072CD937CB0005D40C /* CYOAVintartasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYOAVintartasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +97,9 @@
 		AB6F47DB2CD937CA0005D40C = {
 			isa = PBXGroup;
 			children = (
+				AB0CC1392CDBD867002BD47D /* ceaserVC.swift */,
+				AB0CC1372CDBD5C0002BD47D /* fightVC.swift */,
+				AB0CC1352CDBD57A002BD47D /*  Lose Fight.swift */,
 				AB6F47E62CD937CA0005D40C /* CYOAVintartas */,
 				AB6F48002CD937CB0005D40C /* CYOAVintartasTests */,
 				AB6F480A2CD937CB0005D40C /* CYOAVintartasUITests */,
@@ -249,6 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0CC1362CDBD57A002BD47D /*  Lose Fight.swift in Sources */,
+				AB0CC13A2CDBD867002BD47D /* ceaserVC.swift in Sources */,
+				AB0CC1382CDBD5C0002BD47D /* fightVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
