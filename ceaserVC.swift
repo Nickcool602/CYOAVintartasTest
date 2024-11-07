@@ -23,7 +23,7 @@ class ceaserVC: UIViewController {
     }
     
     @IBAction func enterButton(_ sender: UIButton) {
-        if answerField.text == "All who enter will fall, if you think you won't, you are a fool." {
+        if answerField.text == "All who enter will fall, if you think you wont, you are a fool." {
             performSegue(withIdentifier: "correct", sender: nil)
         }
         else {
